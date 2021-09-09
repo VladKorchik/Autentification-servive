@@ -32,8 +32,4 @@ public class AuthorizationService {
     private boolean isEmpty(List<?> str) {
         return str == null || str.isEmpty();
     }
-
-
-
-
 }
