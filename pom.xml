@@ -11,7 +11,7 @@
 	<groupId>ru.netology</groupId>
 	<artifactId>Autentification-servive</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>Autentification-servive</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
