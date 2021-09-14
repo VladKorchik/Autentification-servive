@@ -1,14 +1,9 @@
 version: "3.8"
 
 services:
-  signInService:
-    build: /
-
-    image: node:12-alphine
-    command: sh -c "yarn install && yarn run dev"
+  autentification-service:
+    build: "."
+    image: autentification-service:latest
     ports:
       - 8080:8080
-    working_dir: /signInService
-    volumes:
-      - ./:/signInService
-
+    restart: always
